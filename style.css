@@ -1,0 +1,192 @@
+/* For all webpages */
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/ubuntu.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/ubuntub.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/open.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: url(img/bg.jpg);
+  background-size: cover;
+}
+#mainNav ul{
+  list-style-type: none;
+  font-family: Ubuntu;
+  margin-left: 400px;
+}
+
+#mainNav li{
+  float: left;
+}
+
+#mainNav a{
+  display: block;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  border: solid 1px #000;
+}
+
+#mainNav a:hover{
+  background-color: white;
+  color: #111;
+}
+
+
+/* Index */
+
+.mainBox{
+  margin: auto;
+  width: 80%;
+  font-family: OpenSans;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box1, .box2, .box3{
+  margin-top: 200px;
+  margin-left: 50px;
+  padding: 64px 64px;
+  border: solid 1px #999;
+  border-radius: 12.5px;
+}
+
+.box1{
+  background: url(img/tpreview1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box2{
+  background: url(img/tpreview2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box3{
+  background: url(img/tpreview3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainBox a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  border: solid 1px #000;
+  padding: 16px 4px;
+  margin-top: 25px;
+}
+
+.mainBox a:hover{
+  background-color: white;
+  color: #000;
+}
+
+/* About */
+
+.aboutbox {
+  color: white;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: solid 1px #999;
+  border-radius: 12.5px;
+  font-size: 32px;
+}
+
+.aboutbox h1 {
+  font-family: Ubuntu;
+  background-color: #000;
+  border-radius: 12.5px;
+  padding: 16px 32px;
+}
+
+.aboutbox p {
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 24px;
+  padding: 10px;
+  background: url(img/toco.jpg)
+}
+
+/* Breeds */
+
+.breeds{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 200px;
+  color: white;
+}
+
+.breeds h1{
+  font-family: Ubuntu;
+  background-color: #000;
+  text-align: center;
+  padding: 16px;
+}
+
+.breeds p{
+  font-family: OpenSans;
+  font-style: 24px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 12.5px;
+}
+
+.breed1, .breed2, .breed3{
+  margin-right: 50px;
+}
+
+.breed1 p{
+  background: url(img/toco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.breed2 p{
+  background: url(img/keel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.breed3 p{
+  background: url(img/aracari.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Prices */
+
+.info {
+  background-color: #000;
+  color: white;
+  padding: 16px;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  font-family: OpenSans;
+}
